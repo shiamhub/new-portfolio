@@ -3,11 +3,10 @@ import React from 'react';
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
+import { ModeToggle } from '@/components/btn/ModeToggle';
+import { SquareUser } from 'lucide-react';
 
 
 const Navbar: React.FC = () => {
@@ -34,9 +33,10 @@ const Navbar: React.FC = () => {
                         </a>
                     </div>
                 </div>
-                <div className="block md:hidden">
+                <div className="flex gap-7">
+                    <ModeToggle ></ModeToggle>
                     <Sheet>
-                        <SheetTrigger>Open</SheetTrigger>
+                        <SheetTrigger><SquareUser className='dark:text-white' strokeWidth={1.5} /></SheetTrigger>
                         <SheetContent className='w-9/12 lg:w-5/12'>
                             <div className="">
                                 <div className="text-sm lg:flex-grow text-black">

@@ -1,31 +1,25 @@
-"use client"
-
-import { Moon, Sun } from "lucide-react"
-import { useTheme } from "next-themes"
-
-import { Button } from "@/components/ui/button"
-
-import { useState } from "react"
+"use client";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export function ModeToggle() {
-    const [mode, setMode] = useState(true)
-    const { setTheme } = useTheme()
+    const [ mounted, setMounted ] = useState(false);
+    const { setTheme, resolvedTheme } = useTheme();
 
-    return (
-        <div>
-            {
-                !mode ? <Button onClick={() => {
-                    setMode(!mode)
-                    setTheme("dark")
-                }} variant="outline" size="icon">
-                    <Sun />
-                </Button> : <Button onClick={() => {
-                    setMode(!mode)
-                    setTheme("light")
-                }} variant="outline" size="icon">
-                    <Moon />
-                </Button>
-            }
-        </div>
-    )
+    useEffect(() => {
+        setMounted(true);
+    }, [])
+
+    if(!mounted) {
+        return <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width={50} height={50} alt="loader"></Image>
+    }
+    if( resolvedTheme === "dark" ) {
+        return <Sun className="text-white" onClick={() => setTheme("light")}></Sun>
+    }
+    if( resolvedTheme === "light" ) {
+        return <Moon className="text-white" onClick={() => setTheme("dark")}></Moon>
+    }
 }
+

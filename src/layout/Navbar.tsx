@@ -34,9 +34,9 @@ const Navbar: React.FC = () => {
                     </div>
                 </div>
                 <div className="flex gap-7">
-                    <ModeToggle ></ModeToggle>
+                    <ModeToggle></ModeToggle>
                     <Sheet>
-                        <SheetTrigger><SquareUser className='dark:text-white' strokeWidth={1.5} /></SheetTrigger>
+                        <SheetTrigger><SquareUser className='text-white' strokeWidth={1.5} /></SheetTrigger>
                         <SheetContent className='w-9/12 lg:w-5/12'>
                             <div className="">
                                 <div className="text-sm lg:flex-grow text-black">

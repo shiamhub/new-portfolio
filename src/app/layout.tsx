@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/layout/Navbar'
 import { ThemeProvider } from '@/providers/ThemeProvider'
+import { ScrollProvider } from '@/providers/ScrollProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,10 +28,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header>
-            <Navbar />
-          </header>
-          {children}
+          <ScrollProvider>
+            <header>
+              <Navbar />
+            </header>
+            {children}
+          </ScrollProvider>
         </ThemeProvider>
       </body>
     </html>

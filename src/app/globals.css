@@ -58,3 +58,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+.active {
+  @apply bg-[#000] text-primary-foreground
+}
+
+.container {
+  @apply max-w-[1320px] mx-auto px-4 min-[1320px]:px-0;
+}

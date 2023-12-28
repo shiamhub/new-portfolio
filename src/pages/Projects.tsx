@@ -11,8 +11,7 @@ export default function Projects() {
         gsap.registerPlugin(ScrollTrigger)
         commonRef.current.forEach((el: any, index) => {
             gsap.fromTo(el, {
-                autoAlpha: 0,
-                
+                autoAlpha: 0,                
             }, {
                 duration: 1,
                 autoAlpha: 1,

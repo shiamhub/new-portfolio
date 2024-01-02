@@ -11,9 +11,7 @@ export default function page() {
     <>
       <Home></Home>
       <Skills></Skills>
-      <div className="">
       <Projects></Projects>
-      </div>
       <Contact></Contact>
     </>
   )

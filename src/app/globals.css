@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.flair {
-  width: 100px;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;

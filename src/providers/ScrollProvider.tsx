@@ -12,6 +12,7 @@ export const ScrollProvider = ({ children }: { children: React.ReactNode }) => {
     const [top, setTop] = useState<number>(0);
     const [lenis, setLenis] = useState<Lenis | null>(null);
     const reqIdRef = useRef<number | null>(null);
+    
 
     useEffect(() => {
         const animate = (time: number) => {

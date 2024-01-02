@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from 'react'
 
 
 export default function Projects() {
-    const commonRef = useRef([]);
+    const commonRef = useRef<HTMLDivElement[]>([]);
     commonRef.current = [];
     useEffect(()=> {
         gsap.registerPlugin(ScrollTrigger)
@@ -33,7 +33,7 @@ export default function Projects() {
     }
 
     return (
-        <div className='container mb-56'>
+        <div className='container'>
             <div ref={addToRefs} className="w-full h-80 bg-slate-500"></div>
             <div ref={addToRefs} className="w-full h-80 bg-slate-500 my-8"></div>
             <div ref={addToRefs} className="w-full h-80 bg-slate-500"></div>

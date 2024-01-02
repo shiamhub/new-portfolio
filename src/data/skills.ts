@@ -5,10 +5,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 75,
-        "rating": "4",
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": "4"
+        
     },
     {
         "id": 3,
@@ -16,10 +14,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 4
+        
     },
     {
         "id": 4,
@@ -27,10 +23,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 4
+        
     },
     {
         "id": 2,
@@ -38,10 +32,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 55,
-        "rating": 3,
-        "style": {
-            "aos": "fade-up"
-        }
+        "rating": 3
+        
     },
     {
         "id": 5,
@@ -49,9 +41,7 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 60,
-        "rating": 4,
-        "style": {
-            "aos": "fade-up"        }
+        "rating": 4
     },
     {
         "id": 6,
@@ -59,10 +49,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
-        "rating": 4,
-        "style": {
-            "aos": "fade-left"
-        }
+        "rating": 4
+        
     },
     {
         "id": 7,
@@ -70,10 +58,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-up"
-        }
+        "rating": 4
+        
     },
     {
         "id": 8,
@@ -81,10 +67,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-right"
-        }
+        "rating": 4
+        
     },
     {
         "id": 9,
@@ -92,10 +76,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
-        "rating": 4,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 4
+        
     },
     {
         "id": 10,
@@ -103,10 +85,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 4
+        
     },
     {
         "id": 11,
@@ -114,10 +94,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
-        "rating": 3,
-        "style": {
-            "aos": "fade-right"
-        }
+        "rating": 3
+        
     },
     {
         "id": 12,
@@ -125,10 +103,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
-        "rating": 3,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 3
+        
     },
     {
         "id": 13,
@@ -136,10 +112,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
-        "rating": 3,
-        "style": {
-            "aos": "fade-left"
-        }
+        "rating": 3
+        
     },
     {
         "id": 14,
@@ -147,10 +121,8 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
-        "rating": 3,
-        "style": {
-            "aos": "fade-up"
-        }
+        "rating": 3
+        
     },
     {
         "id": 15,
@@ -158,64 +130,63 @@ export const skills = [
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 60,
-        "rating": 3,
-        "style": {
-            "aos": "fade-up"
-        }
+        "rating": 3
+        
     },
+    {"id": 201},
+
     {
         "id": 16,
         "title": "HTML",
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-left"
-        }
+        "rating": 4
+        
     },
+    {"id": 202},
+    
+
     {
         "id": 17,
         "title": "Netlify",
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
-        "rating": 4,
-        "style": {
-            "aos": "fade-up"
-        }
+        "rating": 4
+        
     },
+    {"id": 203},
+
     {
         "id": 18,
         "title": "Vercel",
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
-        "rating": 3,
-        "style": {
-            "aos": "fade-right"
-        }
+        "rating": 3
+        
     },
+    {"id": 204},
+
     {
         "id": 19,
         "title": "Figma",
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 60,
-        "rating": 3,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 3
+        
     },
+    {"id": 205},
+
     {
         "id": 20,
         "title": "VS Code",
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
-        "rating": 4,
-        "style": {
-            "aos": "fade-down"
-        }
+        "rating": 4
+        
     }
 ]

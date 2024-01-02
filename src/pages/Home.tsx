@@ -15,7 +15,6 @@ export default function Home() {
     })
   }, [])
 
-
   useEffect(() => {
     gsap.set(on.current, { xPercent: -50, yPercent: -50 });
 
@@ -31,25 +30,20 @@ export default function Home() {
 
 
   return (
-    <div ref={commonRef} className='opacity-0'>
-      <div ref={on} className='flair rounded-full bg-yellow-400'></div>
-      <video className='mx-auto relative opacity-30 h-full' src="https://firebasestorage.googleapis.com/v0/b/jobfind-4aa18.appspot.com/o/Untitled-design.mp4?alt=media&token=9b88e7da-00c2-4d7f-bf22-281ab3cd2150" autoPlay muted loop></video>
-      <div className='text-start absolute lg:top-1/4 top-[7%] lg:left-[10%] left-8 w-10/12'>
-        <h1 className='text-xl text-primary lg:text-4xl font-bold'>{`Hello, I'm Sk Shiam Ali`}</h1>
-        <h6 className='text-secondary lg:text-3xl bor'>Web Developer </h6>
-
-        {/* <div className='lg:mt-20 mt-4'>
-          <Marquee speed={80} className='w-1/4'>
-            {
-              skills.map(a => <div key={a.id}>
-                <Image className='lg:w-20 w-10 lg:ml-5 ml-3' src={a.images} width={100} height={100} alt="logo"></Image>
-              </div>)
-            }
-          </Marquee>
-        </div> */}
+    <>
+      <div ref={on} className='w-12 z-10 h-12 flex justify-center items-center pointer-events-none fixed rounded-full bg-yellow-400'>SSA</div>
+      <div className="h-full">
+        <video className='mx-auto relative -z-10 dark:opacity-90 opacity-50' src="https://firebasestorage.googleapis.com/v0/b/my-portfolio-fbca2.appspot.com/o/Animated.mp4?alt=media&token=807d4ae1-f8a5-422c-9668-4935850a4aca" autoPlay muted loop></video>
       </div>
+      <div ref={commonRef} className='opacity-0'>
 
-    </div >
+        <div className='text-start absolute lg:top-1/4 top-[7%] lg:left-[10%] left-8 w-10/12'>
+          <h1 className='text-xl text-white dark:text-white lg:text-4xl font-bold'>{`Hello, I'm Sk Shiam Ali`}</h1>
+          <h6 className='text-white lg:text-3xl bor'>Web Developer </h6>
+        </div>
+
+      </div >
+    </>
   )
 }
 

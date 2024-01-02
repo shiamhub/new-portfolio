@@ -16,12 +16,12 @@ const Navbar: React.FC = () => {
     const topmath = Math.floor(top * .1)
     // console.log("🚀 ~ file: Navbar.tsx:15 ~ top:", topmath)
     return (
-        <section className={`fixed ${topmath > 5 ? topmath > 10 ? topmath > 15 ? topmath > 20 ? topmath > 30 ? topmath >30 ? '-top-16' : '-top-10' : '-top-5' : '-top-5' : '-top-3' : '-top-3' : 'top-0'} left-0 right-0 bg-slate-500 z-50`}>
+        <section className={`fixed left-0 right-0 dark:text-white z-50`}>
             <nav className="lg:w-10/12 w-11/12 mx-auto flex items-center justify-between flex-wrap p-6">
                 <div className="flex items-center flex-shrink-0 text-black mr-6">
                     <span className="font-semibold text-xl tracking-tight">My Website</span>
                 </div>
-                <div className="hidden md:block !text-black">
+                <div className="hidden md:block">
                     <div className="text-sm lg:flex-grow">
                         <a href="/" className="block mt-4 lg:inline-block lg:mt-0 mr-4">
                             Home

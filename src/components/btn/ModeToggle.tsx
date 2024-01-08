@@ -16,10 +16,10 @@ export function ModeToggle() {
         return <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width={50} height={50} alt="loader"></Image>
     }
     if( resolvedTheme === "dark" ) {
-        return <Sun className="text-black" onClick={() => setTheme("light")}></Sun>
+        return <Sun className="text-white" onClick={() => setTheme("light")}></Sun>
     }
     if( resolvedTheme === "light" ) {
-        return <Moon className="text-black" onClick={() => setTheme("dark")}></Moon>
+        return <Moon className="text-white" onClick={() => setTheme("dark")}></Moon>
     }
 }
 

@@ -1,8 +1,8 @@
 export const skills = [
     {
         "id": 1,
-        "title": "Github",
-        "images": '/logo/js.png',
+        "title": "Bootstrap",
+        "images": '/logo/bootstrap.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 75,
         "rating": "4"
@@ -10,8 +10,8 @@ export const skills = [
     },
     {
         "id": 3,
-        "title": "JavaScript",
-        "images": '/logo/js.png',
+        "title": "CSS",
+        "images": '/logo/css-3.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
@@ -19,8 +19,8 @@ export const skills = [
     },
     {
         "id": 4,
-        "title": "React",
-        "images": '/logo/js.png',
+        "title": "Database",
+        "images": '/logo/database.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
@@ -29,7 +29,7 @@ export const skills = [
     {
         "id": 2,
         "title": "Express JS",
-        "images": '/logo/js.png',
+        "images": '/logo/express.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 55,
         "rating": 3
@@ -37,16 +37,16 @@ export const skills = [
     },
     {
         "id": 5,
-        "title": "Node JS",
-        "images": '/logo/js.png',
+        "title": "Figma",
+        "images": '/logo/figma.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 60,
         "rating": 4
     },
     {
         "id": 6,
-        "title": "CSS",
-        "images": '/logo/js.png',
+        "title": "Firebase",
+        "images": '/logo/firebase.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
         "rating": 4
@@ -54,8 +54,8 @@ export const skills = [
     },
     {
         "id": 7,
-        "title": "Tailwind CSS",
-        "images": '/logo/js.png',
+        "title": "Github",
+        "images": '/logo/github.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
@@ -63,8 +63,8 @@ export const skills = [
     },
     {
         "id": 8,
-        "title": "JWT",
-        "images": '/logo/js.png',
+        "title": "HTML",
+        "images": '/logo/html-5.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
@@ -72,7 +72,7 @@ export const skills = [
     },
     {
         "id": 9,
-        "title": "MongoDB",
+        "title": "Javascript",
         "images": '/logo/js.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
@@ -81,8 +81,8 @@ export const skills = [
     },
     {
         "id": 10,
-        "title": "Firebase",
-        "images": '/logo/js.png',
+        "title": "JWT",
+        "images": '/logo/jwt.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
@@ -90,8 +90,8 @@ export const skills = [
     },
     {
         "id": 11,
-        "title": "Tanstack Query",
-        "images": '/logo/js.png',
+        "title": "MongoDB",
+        "images": '/logo/mongodb.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
         "rating": 3
@@ -99,8 +99,8 @@ export const skills = [
     },
     {
         "id": 12,
-        "title": "Next JS",
-        "images": '/logo/js.png',
+        "title": "Netlify",
+        "images": '/logo/netlify.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
         "rating": 3
@@ -109,7 +109,7 @@ export const skills = [
     {
         "id": 13,
         "title": "Typescript",
-        "images": '/logo/js.png',
+        "images": '/logo/typescript.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
         "rating": 3
@@ -118,7 +118,7 @@ export const skills = [
     {
         "id": 14,
         "title": "Redux",
-        "images": '/logo/js.png',
+        "images": '/logo/redux.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 50,
         "rating": 3
@@ -126,67 +126,83 @@ export const skills = [
     },
     {
         "id": 15,
-        "title": "Bootstrap",
-        "images": '/logo/js.png',
+        "title": "React",
+        "images": '/logo/react.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 60,
         "rating": 3
         
     },
-    {"id": 201},
+    // {"id": 201},
 
     {
         "id": 16,
-        "title": "HTML",
-        "images": '/logo/js.png',
+        "title": "Tanstack Query",
+        "images": '/logo/tanstack.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
         
     },
-    {"id": 202},
+    // {"id": 202},
     
 
     {
         "id": 17,
-        "title": "Netlify",
-        "images": '/logo/js.png',
+        "title": "Tailwind CSS",
+        "images": '/logo/tailwind.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
         "rating": 4
         
     },
-    {"id": 203},
+    // {"id": 203},
 
     {
         "id": 18,
         "title": "Vercel",
-        "images": '/logo/js.png',
+        "images": '/logo/vercel.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 70,
         "rating": 3
         
     },
-    {"id": 204},
+    // {"id": 204},
 
     {
         "id": 19,
-        "title": "Figma",
-        "images": '/logo/js.png',
+        "title": "Next JS",
+        "images": '/logo/next.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 60,
         "rating": 3
         
     },
-    {"id": 205},
+    // {"id": 205},
 
     {
         "id": 20,
         "title": "VS Code",
-        "images": '/logo/js.png',
+        "images": '/logo/visual-studio.png',
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "health": 80,
         "rating": 4
         
+    },
+    {
+        "id": 21,
+        "title": "Node JS",
+        "images": '/logo/node.png',
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "health": 80,
+        "rating": 4
+    },
+    {
+        "id": 22,
+        "title": "Next Auth",
+        "images": '/logo/auth.png',
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "health": 80,
+        "rating": 4
     }
 ]

@@ -19,7 +19,7 @@ export default function Projects() {
                 scrollTrigger: {
                     id: `div-${index+1}`,
                     trigger: el,
-                    start: "top center+=100",
+                    start: "top center+=200",
                     toggleActions: "play none none reverse",
                 } as any
             })
